@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cubes with 3D Perspective</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        canvas {
+            border: 1px solid black;
+        }
+        .controls {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+        .controls > div {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="controls">
+        <div>
+            <label for="rho">rho: </label>
+            <input type="number" id="rho" value="10">
+        </div>
+        <div>
+            <label for="theta">theta: </label>
+            <input type="number" id="theta" value="0">
+        </div>
+        <div>
+            <label for="phi">phi: </label>
+            <input type="number" id="phi" value="0">
+        </div>
+        <div>
+            <label for="rotateZ">rotateZ: </label>
+            <input type="number" id="rotateZ" value="0">
+        </div>
+        <div>
+            <label for="rotateX">rotateX: </label>
+            <input type="number" id="rotateX" value="0">
+        </div>
+        <div>
+            <label for="rotateY">rotateY: </label>
+            <input type="number" id="rotateY" value="0">
+        </div>
+        <div>
+            <label for="TX">TX: </label>
+            <input type="number" id="TX" value="0">
+        </div>
+        <div>
+            <label for="TY">TY: </label>
+            <input type="number" id="TY" value="0">
+        </div>
+        <div>
+            <label for="TZ">TZ: </label>
+            <input type="number" id="TZ" value="0">
+        </div>
+        <div>
+            <label for="screenDist">Dist: </label>
+            <input type="number" id="screenDist" value="1000">
+        </div>
+        <div>
+            <label for="N">N: </label>
+            <input type="number" id="N" value="1">
+        </div>
+        <div>
+            <button id="draw">Draw</button>
+            <button id="clear">Clear</button>
+        </div>
+    </div>
+    <canvas id="canvas" width="500" height="500"></canvas>
+    <script src="dist/main.js"></script>
+</body>
+</html>
+
