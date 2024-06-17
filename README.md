@@ -18,3 +18,9 @@ cd 3d-perspective-renderer
 npm install
 ```
 
+# Example Usage
+
+See https://1907182.playcode.io/
+
+![Screen Shot](docs/images/playcode.io.png "Playcode ScreenShot")
+
