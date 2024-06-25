@@ -13,7 +13,7 @@ A TypeScript module for rendering 3D objects with perspective transformations us
 Clone the repository and install dependencies:
 
 ```sh
-git clone https://github.com/yourusername/3d-perspective-renderer.git
+git clone https://github.com/redcricket/3d-perspective-renderer.git
 cd 3d-perspective-renderer
 npm install
 ```
